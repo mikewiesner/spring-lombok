@@ -80,11 +80,11 @@ public class EmployeeCommandImpl implements EmployeeCommandOutPort {
 //	@PostConstruct
 //	public void dataInitializer() {
 //		employeeRepository.forEach(e -> e.deleteAll());
-//		HREmployee max = HREmployee.of("max", "no-reply@example.com", "Max", "Mustermann",LocalDate.now(), LocalDate.of(2000, 01, 01));
+//		HREmployee max = new HREmployee("max", "no-reply@example.com", "Max", "Mustermann",LocalDate.now(), LocalDate.of(2000, 01, 01));
 //		employeeRepository.forEach(e -> e.save(max));
-//		HREmployee mike = HREmployee.of("mike", "mike@example.com", "Mike", "Wiesner", LocalDate.of(2007, 04, 01), LocalDate.of(2015,10,21));
+//		HREmployee mike = new HREmployee("mike", "mike@example.com", "Mike", "Wiesner", LocalDate.of(2007, 04, 01), LocalDate.of(2015,10,21));
 //		employeeRepository.forEach(e -> e.save(mike));
-//		HREmployee christian = HREmployee.of("christian", "christian@example.com", "Christian", "Harms", LocalDate.of(2006, 04, 01), LocalDate.of(2015,12,24));
+//		HREmployee christian = new HREmployee("christian", "christian@example.com", "Christian", "Harms", LocalDate.of(2006, 04, 01), LocalDate.of(2015,12,24));
 //		employeeRepository.forEach(e -> e.save(christian));
 //	}
 	
